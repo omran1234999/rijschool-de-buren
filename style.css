@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../images/bg-car.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+nav {
+  background: rgba(0,0,0,0.8);
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 12px;
+}
+h1, h2, p {
+  color: white;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
